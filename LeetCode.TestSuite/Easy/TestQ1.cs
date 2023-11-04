@@ -1,7 +1,7 @@
 ﻿using LeetCode.Questions.Easy;
 using NUnit.Framework;
 
-namespace LeetCode.TestSuite
+namespace LeetCode.TestSuite.Easy
 {
     [TestFixture]
     public class TestQ1
