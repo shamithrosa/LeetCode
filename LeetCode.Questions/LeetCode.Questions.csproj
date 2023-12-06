@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="Easy\Q1.cs" />
     <Compile Include="Easy\Q13.cs" />
+    <Compile Include="Easy\Q14.cs" />
+    <Compile Include="Easy\Q20.cs" />
     <Compile Include="Easy\Q9.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

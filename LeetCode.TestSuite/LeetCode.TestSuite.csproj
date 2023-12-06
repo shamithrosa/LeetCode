@@ -54,8 +54,10 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\TestQ14.cs" />
     <Compile Include="Easy\TestQ9.cs" />
     <Compile Include="Easy\TestQ13.cs" />
+    <Compile Include="Easy\TestQ20.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Easy\TestQ1.cs" />
   </ItemGroup>
