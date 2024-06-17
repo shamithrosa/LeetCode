@@ -47,7 +47,11 @@
     <Compile Include="Easy\Q13.cs" />
     <Compile Include="Easy\Q14.cs" />
     <Compile Include="Easy\Q20.cs" />
+    <Compile Include="Easy\Q26.cs" />
+    <Compile Include="Easy\Q27.cs" />
+    <Compile Include="Easy\Q28.cs" />
     <Compile Include="Easy\Q9.cs" />
+    <Compile Include="Medium\Q29.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
