@@ -1,28 +1,31 @@
 ﻿namespace LeetCode.Questions.Easy
 {
+    /// <summary>
+    /// Given an array of strings, find the longest common prefix string amongst them.
+    /// </summary>
     public class Q14
     {
-        public string LongestCommonPrefix(string[] testInput)
+        public string LongestCommonPrefix(string[] arrayOfWords)
         {
-            if (testInput.Length == 0 || testInput == null) return string.Empty;
+            if (arrayOfWords.Length == 0 || arrayOfWords == null) return string.Empty;
 
-            for (int i = 0; i < testInput[0].Length; i++)
+            for (int i = 0; i < arrayOfWords[0].Length; i++)
             {
-                char currentchar = testInput[0][i];
+                char currentChar = arrayOfWords[0][i];
 
-                for (int j = 0; j < testInput.Length; j++)
+                for (int j = 0; j < arrayOfWords.Length; j++)
                 {
-                    var abc = testInput[j].Length;
-                    var xyz = testInput[j][i];
+                    var abc = arrayOfWords[j].Length;
+                    var xyz = arrayOfWords[j][i];
 
-                    if (i == testInput[j].Length || testInput[j][i] != currentchar)
+                    if (i == arrayOfWords[j].Length || arrayOfWords[j][i] != currentChar)
                     {
-                        return testInput[0].Substring(0, i);
+                        return arrayOfWords[0].Substring(0, i);
                     }
                 }
             }
 
-            return testInput[0];
+            return arrayOfWords[0];
         }
     }
 }

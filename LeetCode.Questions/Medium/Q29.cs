@@ -2,6 +2,9 @@
 
 namespace LeetCode.Questions.Medium
 {
+    /// <summary>
+    /// Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.
+    /// </summary>
     public class Q29
     {
         public int Divide(int dividend, int divisor)

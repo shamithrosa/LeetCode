@@ -2,6 +2,9 @@
 
 namespace LeetCode.Questions.Easy
 {
+    /// <summary>
+    /// Given a sorted array nums, remove the duplicates in-place such that each element appears only once and returns the new length.
+    /// </summary>
     public class Q26
     {
         List<int> pureArray;

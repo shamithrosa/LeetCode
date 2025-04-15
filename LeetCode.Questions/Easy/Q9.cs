@@ -2,6 +2,9 @@
 
 namespace LeetCode.Questions.Easy
 {
+    /// <summary>
+    /// Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+    /// </summary>
     public class Q9
     {
         public bool IsPalindrome(int x)

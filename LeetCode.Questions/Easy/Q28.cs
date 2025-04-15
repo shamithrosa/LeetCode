@@ -1,5 +1,8 @@
 ﻿namespace LeetCode.Questions.Easy
 {
+    /// <summary>
+    /// Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.
+    /// </summary>
     public class Q28
     {
         public int FindNeedleInHaystack(string haystack, string needle)

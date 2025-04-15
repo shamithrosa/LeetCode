@@ -1,7 +1,8 @@
-﻿using System;
-
-namespace LeetCode.Questions.Easy
+﻿namespace LeetCode.Questions.Easy
 {
+    /// <summary>
+    /// Given a roman numeral, convert it to an integer.
+    /// </summary>
     public class Q13
     {
         public int RomanToInt(string romanNumString)
